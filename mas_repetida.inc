@@ -39,5 +39,5 @@ aumentar_esi:
 fin:
     pop esi
     pop bx
-    mov byte ptr [edi],ah
+        mov byte ptr [edi],al
     ret
